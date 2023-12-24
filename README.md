@@ -1,9 +1,8 @@
-# Pre-compiled CCMiner for Termux:
 This is a WIP repo for pre-compiled ccminer binaries with latest termux(v0.118.0) and latest clang(v17.0.6).
 
 # **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
 
-# **`This is for Exynos-M3 & Cortex-A55`**
+# **`This is for ARM Cortex-A73 & Cortex-A53`**
 
 # Installation:
 1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
@@ -19,9 +18,9 @@ pkg install libjansson wget nano -y
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/em3-a55/ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/em3-a55/config.json
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/em3-a55/start.sh
+wget https://raw.githubusercontent.com/TvrdyChlast/pre-compiled/main/ccminer
+wget https://raw.githubusercontent.com/TvrdyChlast/pre-compiled/main/config.json
+wget https://raw.githubusercontent.com/TvrdyChlast/pre-compiled/main/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
@@ -45,6 +44,6 @@ CTRL + c
 - If Termux can't complete update & upgrade please clear app cache and data.
 - Disable battery manager, battery optimization for Termux app.
 - If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
+- Alternatively you can pull down the notification drawer and expand Termux notification to `Acquire wakelock` this will enable you to mine with the screen off **(NOTE! not all devices obey this rule is a hit or miss)**
 - Use a pool with low latency to your location/internet.
 - Give the miner/stratum time to stabilize hashrate(~30m-1h).
-
