@@ -42,6 +42,11 @@ nano config.json
 CTRL + c
 ```
 # Tips & Tricks:
+autostart 
+nano /data/data/com.termux/files/usr/etc/bash.bashrc
+bash /data/data/com.termux/files/home/ccminer/start.sh
+
+
 - If Termux can't complete update & upgrade please clear app cache and data.
 - Disable battery manager, battery optimization for Termux app.
 - If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
