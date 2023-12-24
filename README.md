@@ -19,9 +19,9 @@ pkg install libjansson wget nano -y
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/TvrdyChlast/pre-compiled/main/ccminer
-wget https://raw.githubusercontent.com/TvrdyChlast/pre-compiled/main/config.json
-wget https://raw.githubusercontent.com/TvrdyChlast/pre-compiled/main/start.sh
+wget https://github.com/TvrdyChlast/ccminer/raw/main/ccminer
+wget https://github.com/TvrdyChlast/ccminer/raw/main/config.json
+wget https://github.com/TvrdyChlast/ccminer/raw/main/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
@@ -43,7 +43,11 @@ CTRL + c
 ```
 # Tips & Tricks:
 autostart 
+
+
 nano /data/data/com.termux/files/usr/etc/bash.bashrc
+
+
 bash /data/data/com.termux/files/home/ccminer/start.sh
 
 
