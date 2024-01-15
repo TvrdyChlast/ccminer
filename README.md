@@ -44,9 +44,6 @@ nano /data/data/com.termux/files/usr/etc/bash.bashrc
 ```
 Add
 
-` bash /data/data/com.termux/files/home/ccminer/start.sh`
-
-
-- Alternatively you can pull down the notification drawer and expand Termux notification to `Acquire wakelock` this will enable you to mine with the screen off **(NOTE! not all devices obey this rule is a hit or miss)**
-- Use a pool with low latency to your location/internet.
-- Give the miner/stratum time to stabilize hashrate(~30m-1h).
+```
+bash /data/data/com.termux/files/home/ccminer/start.sh
+```
