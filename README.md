@@ -37,19 +37,12 @@ nano config.json
 ```
 ~/ccminer/start.sh
 ```
-3. Close ccminer with:
+3. autorun:
 ```
-CTRL + c
+nano /data/data/com.termux/files/usr/etc/bash.bashrc
+bash /data/data/com.termux/files/home/ccminer/start.sh
 ```
 # Tips & Tricks:
-autostart 
-
-
-nano /data/data/com.termux/files/usr/etc/bash.bashrc
-
-
-bash /data/data/com.termux/files/home/ccminer/start.sh
-
 
 - If Termux can't complete update & upgrade please clear app cache and data.
 - Disable battery manager, battery optimization for Termux app.
